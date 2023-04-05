@@ -88,13 +88,13 @@ img {
   list-style-type: none;
   display: flex;
   margin-left: 345px;
-  align-items:center;
-  fill:#757575
+  align-items: center;
+  fill: #757575;
 }
 .menu-contact li:not(:last-child) {
-  margin-right: 30px
+  margin-right: 30px;
 }
-.link-header-icon{
+.link-header-icon {
   cursor: pointer;
   display: inline-flex;
   margin-right: 10px;
@@ -147,13 +147,14 @@ img {
 /*---Agencja---*/
 /* EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU */
 .first-page {
-  background:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/header/img-header.jpg');
+  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(./../images/header/img-header.jpg);
   height: 600px;
   max-width: 1600px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto
+  margin: 0 auto;
 }
 .main-title {
   color: #ffffff;
@@ -206,20 +207,20 @@ img {
   letter-spacing: 0.03em;
   color: #757575;
 }
-.background-icon-feature{
-  background-color: #F5F4FA;
-  width:270px;
-  height:120px;
+.background-icon-feature {
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
   display: flex;
   justify-content: center;
   padding-top: 25px;
   text-align: center;
   margin-bottom: 30px;
 }
-.icon-feature{
-  background: #F5F4FA;
+.icon-feature {
+  background: #f5f4fa;
   border-radius: 4px;
-  border:none;
+  border: none;
 }
 /*Czym sie zajmujemy*/
 .second-title {
