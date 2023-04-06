@@ -84,6 +84,14 @@ img {
 .menu-contact a:focus {
   color: #2196f3;
 }
+.link-header-icon use:hover {
+  fill: blue;
+}
+.menu-contact li:hover,
+.menu-contact li:focus {
+  fill: #2196f3;
+  color: #2196f3;
+}
 .menu-contact {
   list-style-type: none;
   display: flex;
@@ -107,9 +115,25 @@ img {
 }
 
 /* footer */
+
+.footer-block {
+  display: inline-block;
+}
+.footer-block2 {
+  width: 206px;
+  height: 80px;
+  display: inline-block;
+}
+.footer-block12 {
+  display: flex;
+  line-height: 100%;
+}
 .footer-box {
   background-color: #2f303a;
   height: 252px;
+  width: 100%;
+  padding: 60px 0;
+  display: block;
 }
 .footer-box a {
   color: #ffffff;
@@ -137,13 +161,48 @@ img {
   list-style-type: none;
 }
 .footer-logo {
-  padding-top: 60px;
   padding-bottom: 20px;
 }
 .footer-nav-contact {
   padding-bottom: 9px;
 }
-
+/* Dołącz do nas footer*/
+.join-us {
+  margin-left: 70px;
+}
+.join-us p {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+.list-svg-join-us {
+  list-style: none;
+  text-align: center;
+  justify-content: left;
+  display: flex;
+}
+.svg-joun-us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: #ececec;
+  height: 44px;
+  width: 44px;
+}
+.list-svg-join-us li:not(:last-child) {
+  margin-right: 10px;
+}
+.list-svg-join-us li:hover,
+.list-svg-join-us li:focus {
+  background: #2196f3;
+  border-radius: 50%;
+}
 /*---Agencja---*/
 /* EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU */
 .first-page {
@@ -255,7 +314,7 @@ img {
 }
 .card-team {
   width: 270px;
-  height: 368px;
+  height: 428px;
   text-align: center;
   background-color: rgba(255, 255, 255, 1);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -276,6 +335,55 @@ img {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.social-card-team {
+  list-style-type: none;
+  display: inline-flex;
+  justify-content: center;
+  fill: #afb1b8;
+  width: 44px;
+  height: 44px;
+  margin-top: 16px;
+  align-items: center;
+}
+.social-card-team:not(last-child) {
+  margin-left: 10px;
+}
+.social-card-team:hover {
+  background-color: #2196f3;
+  fill: #ffffff;
+  border-radius: 50%;
+}
+/*Nasi klienci*/
+.title-our-customers {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+.all-svg-our-customers {
+  display: flex;
+  justify-content: center;
+}
+.all-svg-our-customers a:not(:last-child) {
+  margin-right: 30px;
+}
+.border-svg {
+  width: 170px;
+  height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  fill: #afb1b8;
+}
+.border-svg:hover,
+.border-svg:focus {
+  border-color: #2196f3;
+  fill: #2196f3;
 }
 
 /*PORTFOLIO*/
@@ -339,4 +447,8 @@ img {
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
+}
+.portfolio-card-list:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }

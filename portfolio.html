@@ -33,10 +33,20 @@
         </nav>
         <ul class="menu-contact">
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com">
+              <svg class="link-header-icon" width="16" height="12">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
           </li>
           <li>
-            <a href="tel:+48111111111">+48 111 111 111</a>
+            <a href="tel:+48111111111">
+              <svg class="link-header-icon" width="10" height="16">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              +48 111 111 111
+            </a>
           </li>
         </ul>
       </div>
@@ -52,7 +62,7 @@
         </div>
         <div class="portfolio-card">
           <ul>
-            <li>
+            <li class="portfolio-card-list">
               <img
                 src="./images/portfolio/portfolio1_img.jpg"
                 alt="strona internetowa technocrack"
@@ -64,7 +74,7 @@
                 <p class="portfolio-text">Strona internetowa</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-card-list">
               <img
                 src="./images/portfolio/portfolio2_img.jpg"
                 alt="Dizajn Grafika New Orlean vs Golden Star"
@@ -76,7 +86,7 @@
                 <p class="portfolio-text">Dizajn</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-card-list">
               <img
                 src="./images/portfolio/portfolio3_img.jpg"
                 alt="Aplikacja Restauracja Seafood"
@@ -88,7 +98,7 @@
                 <p class="portfolio-text">Aplikacja</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-card-list">
               <img
                 src="./images/portfolio/portfolio4_img.jpg"
                 alt="Marketing Projekt Prime"
@@ -100,7 +110,7 @@
                 <p class="portfolio-text">Marketing</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-card-list">
               <img
                 src="./images/portfolio/portfolio5_img.jpg"
                 alt="Aplikacja Projekt Boxes"
@@ -112,7 +122,7 @@
                 <p class="portfolio-text">Aplikacja</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-card-list">
               <img
                 src="./images/portfolio/portfolio6_img.jpg"
                 alt="Strona internetowa Inspiration has no Borders"
@@ -124,7 +134,7 @@
                 <p class="portfolio-text">Strona internetowa</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-card-list">
               <img
                 src="./images/portfolio/portfolio7_img.jpg"
                 alt="Dizajn Magazyn Limited Edition"
@@ -136,7 +146,7 @@
                 <p class="portfolio-text">Dizajn</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-card-list">
               <img
                 src="./images/portfolio/portfolio8_img.jpg"
                 alt="Marketing Projekt LAB"
@@ -148,7 +158,7 @@
                 <p class="portfolio-text">Marketing</p>
               </div>
             </li>
-            <li>
+            <li class="portfolio-card-list">
               <img
                 src="./images/portfolio/portfolio9_img.jpg"
                 alt="Aplikacja Growing Business"
@@ -166,24 +176,61 @@
     </main>
     <footer>
       <section class="footer-box">
-        <div class="container">
-          <div class="footer-logo">
-            <a class="logo" href="./index.html"><span class="text-blue">Web</span>Studio</a>
+        <div class="container footer-block12">
+          <div class="footer-block">
+            <div class="footer-logo">
+              <a class="logo" href="./index.html"><span class="text-blue">Web</span>Studio</a>
+            </div>
+            <div class="footer-nav-contact">
+              <address>
+                <ul class="footer-address">
+                  <li>
+                    <a href="https://goo.gl/maps/KbZr57rCnXVUUgMi8" target="_blank"
+                      >m. Warszawa, Aleje Jerozolimskie 21</a
+                    >
+                  </li>
+                </ul>
+              </address>
+              <ul class="footer-contact">
+                <li><a href="mailto:info@example.com">info@example.com</a></li>
+                <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+              </ul>
+            </div>
           </div>
-          <div class="footer-nav-contact">
-            <address>
-              <ul class="footer-address">
+          <div class="footer-block2">
+            <div class="join-us">
+              <p>Dołącz do nas</p>
+              <ul class="list-svg-join-us">
                 <li>
-                  <a href="https://goo.gl/maps/KbZr57rCnXVUUgMi8" target="_blank"
-                    >m. Warszawa, Aleje Jerozolimskie 21</a
-                  >
+                  <a class="svg-joun-us" href="#"
+                    ><svg weight="20" height="20">
+                      <use href="./images/icons.svg#icon-instagram1"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a class="svg-joun-us" href="#"
+                    ><svg weight="20" height="20">
+                      <use href="./images/icons.svg#icon-twiitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a class="svg-joun-us" href="#"
+                    ><svg weight="20" height="20">
+                      <use href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a class="svg-joun-us" href="#"
+                    ><svg weight="20" height="20">
+                      <use href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                  </a>
                 </li>
               </ul>
-            </address>
-            <ul class="footer-contact">
-              <li><a href="mailto:info@example.com">info@example.com</a></li>
-              <li><a href="tel:+48111111111">+48 111 111 111</a></li>
-            </ul>
+            </div>
           </div>
         </div>
       </section>
