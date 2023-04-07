@@ -13,9 +13,12 @@ img {
 }
 .header-position {
   display: flex;
-  border-bottom: 1px solid #ececec;
+
   align-items: center;
   max-height: 80px;
+}
+.border-header {
+  border-bottom: 1px solid #ececec;
 }
 .container {
   max-width: 1200px;
@@ -87,8 +90,8 @@ img {
 .link-header-icon use:hover {
   fill: blue;
 }
-.menu-contact li:hover,
-.menu-contact li:focus {
+.menu-contact a:hover,
+.menu-contact a:focus {
   fill: #2196f3;
   color: #2196f3;
 }
@@ -198,9 +201,9 @@ img {
 .list-svg-join-us li:not(:last-child) {
   margin-right: 10px;
 }
-.list-svg-join-us li:hover,
-.list-svg-join-us li:focus {
-  background: #2196f3;
+.list-svg-join-us a:hover,
+.list-svg-join-us a:focus {
+  background-color: #2196f3;
   border-radius: 50%;
 }
 /*---Agencja---*/
@@ -223,7 +226,6 @@ img {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  padding-top: 200px;
   padding-bottom: 30px;
 }
 .first-page .first-button:hover,
@@ -349,7 +351,8 @@ img {
 .social-card-team:not(last-child) {
   margin-left: 10px;
 }
-.social-card-team:hover {
+.social-card-team:hover,
+.social-card-team:focus {
   background-color: #2196f3;
   fill: #ffffff;
   border-radius: 50%;
@@ -418,16 +421,12 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  padding-top: 20px;
-  padding-left: 24px;
 }
 .portfolio-text {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
   color: #757575;
-  padding-bottom: 20px;
-  padding-left: 24px;
 }
 .menu2 {
   display: flex;
@@ -447,8 +446,10 @@ img {
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
+  padding: 20px 24px;
 }
 .portfolio-card-list:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
 }
